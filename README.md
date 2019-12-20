@@ -16,7 +16,7 @@ Download Library : https://drive.google.com/open?id=1i-WgjCNOIZtDye-dRQoMlYXU7H4
 
 # FIREBASE CONFIGURATION
 
-Firebase
+Ubah Setingan Wifi Dan Firebase Sebelum Menggunakan.
 ```
 #define FIREBASE_HOST "gempa-9629b.firebaseio.com" 
 #define FIREBASE_AUTH "LKeai6l275X0YcVk5uFjnBvIZgLkrXrRJiGsgRvh"

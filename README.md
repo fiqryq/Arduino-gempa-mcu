@@ -1,7 +1,11 @@
 # Arduino-gempa-mcu
-Arduino pendeteksi gempa + firebase
+Arduino pendeteksi gempa + firebase.
+Modul Yang Dipakai
+- Node MCU
+- BUzzer
+- Vibration Sensor
 
-#Library
+# Library
 Download Library : https://drive.google.com/open?id=1i-WgjCNOIZtDye-dRQoMlYXU7H4_DFmD
 
 ```

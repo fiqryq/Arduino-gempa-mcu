@@ -2,7 +2,7 @@
 Arduino pendeteksi gempa + firebase.
 Modul Yang Dipakai
 - Node MCU
-- BUzzer
+- Buzzer
 - Vibration Sensor
 
 # Library
@@ -23,3 +23,7 @@ Firebase
 #define WIFI_SSID "Wifi_asus"
 #define WIFI_PASSWORD "123123123"
 ```
+
+Aplikasi Pendeteksi Gempa : https://github.com/fiqryq/PendeteksiGempa
+
+Jangan Lupa Starnya.

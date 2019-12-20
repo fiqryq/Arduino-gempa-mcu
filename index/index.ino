@@ -8,14 +8,10 @@
 //firebase
 #define FIREBASE_HOST "gempa-9629b.firebaseio.com"
 #define FIREBASE_AUTH "LKeai6l275X0YcVk5uFjnBvIZgLkrXrRJiGsgRvh"
-#define WIFI_SSID "Zhrr"
+#define WIFI_SSID "Wifi_asus"
 #define WIFI_PASSWORD "123123123"
 
 boolean bacaSensor;
-//char ssid[] = "Andromeda"; // your network SSID (name)
-//char pass[] = "gakperlutahu"; // your network password
-//int status = WL_IDLE_STATUS;
-//WiFiClient client;
 int readValue;
 String myString;
 int sdata = 0;
@@ -34,16 +30,15 @@ void setup() {
   pinMode(pinSensorGempa, INPUT);
   pinMode(pinBuzzer, OUTPUT);
   Serial.begin(9600);
-  // buzzer dimatikan
-//  digitalWrite(pinBuzzer, HIGH);
 }
+
 void loop() {
   // membaca data sensor
   bacaSensor = digitalRead(pinSensorGempa);
   delay(200);
   // jika terdeteksi getaran gempa
   // terbaca output sensor "1" atau logic HIGH
-
+  
   if (bacaSensor == 1) {
     // buzzer menyala
     Serial.println("Ada Gempaaa!!!");
